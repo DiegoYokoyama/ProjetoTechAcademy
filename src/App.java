@@ -20,18 +20,19 @@ public class App {
         for (Aluno item : aDb.getDados()) {
             item.exibir();
         }
-
+        aDb.getDados();
 
         ProfessorFakeDB pDb = new ProfessorFakeDB();
         for (Professor item : pDb.getDados()) {
             item.exibir();
         }
-
+        pDb.getDados();
 
         ProfessorEfetivoFakeDB peDb = new ProfessorEfetivoFakeDB();
         for (ProfessorEfetivo item : peDb.getDados()) {
             item.exibir();
         }
+        peDb.getDados();
     }
 
     
