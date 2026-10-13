@@ -21,10 +21,10 @@ public class Aluno extends AbsPessoa{
     public void exibir(){
         
         System.out.println("----------------------");
-        System.out.println("Codigo: " + this.codigo);
-        System.out.println("nome: " + this.nome);
-        System.out.println("cpf: " + this.cpf);
-        System.out.println("matricula: " + this.matricula);
+        System.out.println("[Aluno] Codigo: " + this.codigo);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("CPF: " + this.cpf);
+        System.out.println("Matricula: " + this.matricula);
         System.out.println("nota: " + this.nota);
     }
 
