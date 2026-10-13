@@ -22,6 +22,7 @@ public class Professor extends AbsPessoa{
     @Override
     public void exibir() {
         
+        System.out.println("----------------------");
         System.out.println("Codigo: " + this.codigo);
         System.out.println("Nome: " + this.nome );
         System.out.println("CPF: " + this.cpf );
